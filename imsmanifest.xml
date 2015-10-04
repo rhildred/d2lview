@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="D2L_32591" xmlns:d2l_2p0="http://desire2learn.com/xsd/d2lcp_v2p0" xmlns:scorm_1p2="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1">
+    <organizations default="d2l_orgs">
+        <organization identifier="d2l_org">
+            <item identifier="1910961" identifierref="RES_CONTENT_1910961" d2l_2p0:id="1" description="" completion_type="2">
+                <title>chapter 1</title>
+                <item identifier="1910962" identifierref="RES_CONTENT_1910962" d2l_2p0:id="2" description="" completion_type="2" resource_type_key="">
+                    <title>This is a  test of chapter 1 article 1</title>
+                </item>
+                <item identifier="1910964" identifierref="RES_CONTENT_1910964" d2l_2p0:id="3" description="" completion_type="2">
+                    <title>This is a test of chapter 1 article 1.1</title>
+                    <item identifier="1910965" identifierref="RES_CONTENT_1910965" d2l_2p0:id="4" description="" completion_type="2" resource_type_key="">
+                        <title>chapter 1 article 1.1</title>
+                    </item>
+                </item>
+                <item identifier="1910963" identifierref="RES_CONTENT_1910963" d2l_2p0:id="5" description="" completion_type="2" resource_type_key="">
+                    <title>This is a test of chapter 1 article 2</title>
+                </item>
+            </item>
+            <item identifier="1910966" identifierref="RES_CONTENT_1910966" d2l_2p0:id="6" description="" completion_type="2">
+                <title>chapter 2</title>
+                <item identifier="1910967" identifierref="RES_CONTENT_1910967" d2l_2p0:id="7" description="" completion_type="2" resource_type_key="">
+                    <title>This is a test of chapter 2 article 1</title>
+                </item>
+                <item identifier="1910968" identifierref="RES_CONTENT_1910968" d2l_2p0:id="8" description="" completion_type="2" resource_type_key="">
+                    <title>PHP Article in Chapter 2</title>
+                </item>
+
+            </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="RES_CONTENT_1910961" type="webcontent" d2l_2p0:material_type="contentmodule" d2l_2p0:link_target="" href="" title="" />
+        <resource identifier="RES_CONTENT_1910962" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="This is a  test of chapter 1 article 1.html" title="" />
+        <resource identifier="RES_CONTENT_1910964" type="webcontent" d2l_2p0:material_type="contentmodule" d2l_2p0:link_target="" href="" title="" />
+        <resource identifier="RES_CONTENT_1910965" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="chapter 1 article 1.1.html" title="" />
+        <resource identifier="RES_CONTENT_1910963" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="This is a test of chapter 1 article 2.html" title="" />
+        <resource identifier="RES_CONTENT_1910966" type="webcontent" d2l_2p0:material_type="contentmodule" d2l_2p0:link_target="" href="" title="" />
+        <resource identifier="RES_CONTENT_1910967" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="This is a test of chapter 2 article 1.html" title="" />
+        <resource identifier="RES_CONTENT_1910968" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="phpArticle2.html" title="" />
+        <resource identifier="res_syllabus" type="webcontent" d2l_2p0:material_type="d2lsyllabus" d2l_2p0:link_target="" href="syllabus_d2l.xml" title="" />
+        <resource identifier="res_quiz_71511" type="webcontent" d2l_2p0:material_type="d2lquiz" d2l_2p0:link_target="" href="quiz_d2l_71511.xml" title="test" />
+    </resources>
+</manifest>

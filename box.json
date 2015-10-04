@@ -1,0 +1,20 @@
+{
+    "chmod": "0755",
+    "directories": [
+        ".","D2LView"
+    ],
+    "files": [
+        "LICENSE"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["Tests"],
+            "in": "vendor"
+        }
+    ],
+    "git-version": "package_version",
+    "main": "index.php",
+    "output": "d2lview.phar",
+    "stub": true
+}

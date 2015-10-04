@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+        "rhildred/slimphpviews": "dev-master",
+        "rhildred/editable": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "D2LView": ""
+        }
+    }
+
+}
