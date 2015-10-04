@@ -6,7 +6,7 @@ class StaticPages{
   static function generate($sRoot, $sPattern){
       $app = new \Slim\Slim(array(
         'view' => new \PHPView\PHPView(),
-        'templates.path' => __DIR__ . "/.."));
+        'templates.path' => getcwd()));
     $ite=new \RecursiveDirectoryIterator($sRoot);
     foreach (new \RecursiveIteratorIterator($ite) as $filename) {
       if(preg_match("/". $sPattern . "$/", $filename) && strpos($filename, "/_") === false){

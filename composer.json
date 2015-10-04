@@ -1,4 +1,5 @@
 {
+    "name": "rhildred/d2lview",
     "require": {
         "slim/slim": "^2.6",
         "rhildred/slimphpviews": "dev-master",
