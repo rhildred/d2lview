@@ -3,7 +3,7 @@ This is a way to create d2l content for input using markdown. To install, just c
 
 ```
 
-curl https://rhildred.github.io/d2lview/d2lview.phar
+curl -O https://rhildred.github.io/d2lview/d2lview.phar
 
 ```
 
